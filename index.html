@@ -9,21 +9,21 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             max-width: 600px;
-            margin: 50px auto;
-            padding: 20px;
-            line-height: 1.6;
+            margin: 15px auto;
+            padding: 8px;
+            line-height: 1.3;
             background-color: #EEEFE9;
             color: rgba(21, 21, 21, 0.9);
         }
 
         h1 {
             font-size: 2em;
-            margin-bottom: 20px;
+            margin-bottom: 3px;
             color: #151515;
         }
 
         p {
-            margin-bottom: 15px;
+            margin-bottom: 5px;
         }
 
         a {
@@ -36,11 +36,45 @@
         }
 
         .joke {
-            margin: 20px 0;
-            padding: 15px;
-            background-color: #E5E7E0;
-            border-radius: 5px;
+            margin: 5px 0;
+            margin-top: 20px;
+            padding: 6px 10px;
             border-left: 3px solid #F54E00;
+            font-style: italic;
+        }
+
+        .joke p {
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+
+        .joke strong {
+            font-style: normal;
+            font-weight: 600;
+        }
+
+        .joke .attribution {
+            font-style: normal;
+            font-size: 0.9em;
+            color: rgba(21, 21, 21, 0.7);
+            margin-top: 2px;
+        }
+
+        .links {
+            list-style: none;
+            padding: 0;
+            margin: 5px 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .links li {
+            margin: 0;
+        }
+
+        .links li a {
+            font-weight: normal;
         }
 
         .logo-text {
@@ -54,24 +88,20 @@
     <h1><span class="logo-text">PostHog</span> Placeholder</h1>
     <p>This is a placeholder page for use in snapshots and documentation examples.</p>
 
-    <div class="joke">
-        <p><strong>Why don't hedgehogs need to use phones?</strong></p>
-        <p>Because they're already on point!</p>
-    </div>
+    <ul class="links">
+        <li><a href="https://posthog.com">Home</a></li>
+        <li><a href="https://posthog.com/careers">Careers</a></li>
+        <li><a href="https://posthog.com/docs">Documentation</a></li>
+        <li><a href="https://posthog.com/blog">Blog</a></li>
+        <li><a href="https://posthog.com/handbook">Handbook</a></li>
+        <li><a href="https://posthog.com/pricing">Pricing</a></li>
+    </ul>
 
     <div class="joke">
-        <p><strong>What do you call a hedgehog that's always late?</strong></p>
-        <p>A procrastinator... they're always putting things off!</p>
+        <p><strong>Who's Höge?</strong></p>
+        <p>We don't talk about Höge.</p>
+        <p class="attribution">— Max, whom we lost in October 2025</p>
     </div>
-
-    <div class="joke">
-        <p><strong>How do hedgehogs stay warm in winter?</strong></p>
-        <p>They just curl up and use their natural insulation... they're never cold-shouldered!</p>
-    </div>
-
-    <p>
-        <a href="https://posthog.com">Learn more</a>
-    </p>
 </body>
 
 </html>
